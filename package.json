@@ -1,0 +1,13 @@
+{
+    "name": "lumen-iod-calculator",
+    "version": "1.0.0",
+    "description": "Estimate Lumen Internet on Demand monthly costs and savings from bandwidth scheduling",
+    "main": "iod-calc.js",
+    "bin": { "iod-calc": "./iod-calc.js" },
+    "scripts": { "start": "node iod-calc.js", "test": "node iod-calc.js --peak 1000 --offpeak 100 --hours 10" },
+    "keywords": ["lumen", "internet-on-demand", "iod", "naas", "bandwidth", "calculator", "network-as-a-service", "cost-calculator"],
+    "author": "Randy Geich",
+    "license": "MIT",
+    "repository": { "type": "git", "url": "https://github.com/rgeich/IOD-Calculator" },
+    "homepage": "https://apptifi.com"
+}
